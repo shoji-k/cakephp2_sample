@@ -11,6 +11,7 @@
     },
     "require": {
         "cakephp/cakephp": "2.*",
-        "cakedc/migrations": "*"
+        "cakedc/migrations": "*",
+        "josegonzalez/cakephp-environments": "*"
     }
 }
