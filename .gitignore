@@ -1,1 +1,4 @@
 /Vendor/*
+/tmp/*
+/Config/core.php
+/Config/database.php
