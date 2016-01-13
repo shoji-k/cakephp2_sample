@@ -1,18 +1,14 @@
+<h2>新規登録</h2>
 <div class="posts form">
-<?php echo $this->Form->create('Post'); ?>
-	<fieldset>
-		<legend><?php echo __('Add Post'); ?></legend>
-	<?php
-		echo $this->Form->input('title');
-		echo $this->Form->input('body');
-	?>
-	</fieldset>
-<?php echo $this->Form->end(__('Submit')); ?>
-</div>
-<div class="actions">
-	<h3><?php echo __('Actions'); ?></h3>
-	<ul>
-
-		<li><?php echo $this->Html->link(__('List Posts'), array('action' => 'index')); ?></li>
-	</ul>
+<?= $this->Form->create('Post', [
+    'inputDefaults' => [
+        'div' => 'form-group',
+        'wrapInput' => false,
+        'class' => 'form-control',
+    ],
+    'class' => 'well']) ?>
+    <?= $this->Form->input('title', ['label'=>'タイトル']) ?>
+    <?= $this->Form->input('body', ['label'=>'本文']) ?>
+    <?= $this->Form->submit('投稿', ['class'=>'btn btn-default']) ?>
+<?= $this->Form->end() ?>
 </div>
