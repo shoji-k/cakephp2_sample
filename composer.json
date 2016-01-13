@@ -9,5 +9,7 @@
     "config": {
         "vendor-dir": "Vendor"
     },
-    "require": {}
+    "require": {
+        "cakephp/cakephp": "2.*"
+    }
 }
