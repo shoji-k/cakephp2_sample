@@ -1,0 +1,10 @@
+{
+    "name": "shoji-k/cakephp-tutorial",
+    "authors": [
+        {
+            "name": "kobayashi shoji",
+            "email": "shoji.kobayashi.0125@gmail.com"
+        }
+    ],
+    "require": {}
+}
