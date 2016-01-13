@@ -1,3 +1,5 @@
+.DS_Store
 /Vendor/*
+/Plugin/*
 /tmp/*
-/Config/database.php
+/reports/*
