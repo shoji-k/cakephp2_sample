@@ -6,5 +6,8 @@
             "email": "shoji.kobayashi.0125@gmail.com"
         }
     ],
+    "config": {
+        "vendor-dir": "Vendor"
+    },
     "require": {}
 }
