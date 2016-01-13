@@ -18,7 +18,8 @@
     "require": {
         "cakephp/cakephp": "2.*",
         "cakedc/migrations": "*",
-        "josegonzalez/cakephp-environments": "*"
+        "josegonzalez/cakephp-environments": "*",
+        "slywalker/boost_cake": "*"
     },
     "require-dev": {
       "pear/console_commandline": "@dev",
