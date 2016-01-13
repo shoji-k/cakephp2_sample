@@ -10,6 +10,7 @@
         "vendor-dir": "Vendor"
     },
     "require": {
-        "cakephp/cakephp": "2.*"
+        "cakephp/cakephp": "2.*",
+        "cakedc/migrations": "*"
     }
 }
