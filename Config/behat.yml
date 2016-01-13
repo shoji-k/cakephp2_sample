@@ -1,6 +1,6 @@
 default:
   paths:
-    features: ../../features
+    features: ../features
   extensions:
     Behat\MinkExtension\Extension:
       base_url:  'http://test.localhost/'
