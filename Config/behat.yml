@@ -3,7 +3,7 @@ default:
     features: ../features
   extensions:
     Behat\MinkExtension\Extension:
-      base_url:  'http://test.localhost/'
+      base_url:  'http://localhost/'
       goutte:
         guzzle_parameters:
           request.params:
